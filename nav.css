@@ -1,0 +1,46 @@
+
+
+.header {
+    display:flex;
+    flex-direction: row;
+    margin:0;
+    padding:0;
+    background: url("https://images.pexels.com/photos/3540760/pexels-photo-3540760.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500") no-repeat fixed;
+    background-size: cover;
+
+}
+.divider {
+    display:flex;
+    flex: 1;
+
+}
+
+.header .nav {
+    display:flex;
+    flex-shrink:1;
+    margin-right: 18px;
+}
+
+.nav a.active {
+    background-color: black;
+}
+
+.header a {
+    flex-shrink: 1;
+    color:#fff;
+    border: 1px solid #b98004;
+    border-radius: 7px;
+    padding: 2px 4px 2px 4px;
+    margin: 25px;
+    text-decoration: none;
+}
+
+.header a:hover {
+    color:darkblue;
+    background-color: slategray;
+    transform: skew(15deg);
+}
+
+.header .logo  {
+    transform:translate(25px,7px);
+}
